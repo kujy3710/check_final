@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Check it, Check it</title>
+	<link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200&display=swap" rel="stylesheet">
+	<style type="text/css">
+
+		html{ font-family: 'Spoqa Han Sans', sans-serif;
+			font-family: 'Montserrat', sans-serif;
+			scroll-behavior: smooth;
+		}
+		body{margin:0 auto;
+			width: 800px;}
+		section{
+			width: 800px; margin: auto;
+			display: flex; padding:0px 5px;
+		}
+
+		img{
+			display: block;
+			margin: auto;
+			width: 100%; 
+		}
+
+		div{display: block; margin: auto;}
+
+		.no_margin{
+			margin, padding: 0;
+		}
+
+		h1{
+			line-height: 1.5;
+		}
+
+		a{text-decoration: none; 
+      color: #000;
+ 		}
+
+    	ul{list-style: none;
+    	margin, padding: 0;
+    	display: flex;
+    	padding-top: 18px;
+    	padding-right: 26px;
+
+ 		}
+
+ 		header {position: fixed;
+      		z-index: 10;
+      		width: 800px;
+
+    }
+
+    .nav-list h1{
+    	text-align: left;
+    	padding-top: 0;
+    	padding-left: 28px;
+    	font-size: 28px;
+    }
+
+    .nav-list{
+    	background: rgba(255,255,255,0.85);
+    	margin: 0;
+    	padding: 1rem 0;
+    	width: 805px;
+    	height: 65px;
+    	display: flex;
+    	justify-content: space-around;
+    	align-items: center;
+    	background-position: center;
+
+    }
+
+    .nav-item{
+    	list-style: none;
+    	padding: 10px; 
+    	font-size: 17px;
+    }
+
+	.cool-link::after{
+		content: '';
+		display: block;
+		width: 0;
+		height: 1.5px;
+		background: #000;
+		transition: width .3s
+	}
+
+	.cool-link:hover::after {
+		width: 100%;
+		transition: width .3s;
+	}
+
+	.intro-area, .check_point-area, .interview-area, .subscribe-area
+	{
+		position: relative;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		flex-direction: row;
+		width: 100%;
+
+	}
+
+	.col-1{width:123.2px; margin: 0px 5px;
+  	}
+
+	.col-2{width:256.2px; margin: 0px 5px;
+  	}
+
+	.col-3{width:390px; margin: 0px 5px;
+  	}
+
+	.col-4{width:523.8px; margin: 0px 5px;
+  	}
+
+	.col-5{width:656.8px; margin: 0px 5px;
+  	}
+
+	.col-6{width:790px; margin: 0px 5px;
+	}
+
+	.home_area{
+		display: flex;
+		width: 100%;
+		background-image: url("main.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 950px;
+	}
+
+	.thin{
+		font-weight: 100;
+	}
+	.light{
+		font-weight: 400;
+	}
+	.bold{
+		font-weight: 700;
+	}
+
+	.home_area h1{
+		font-family: 'Spoqa Han Sans', sans-serif;
+		color: #fff;
+		padding-top:170px; 
+		margin-left: 25px;
+		font-size: 3.9rem;
+		margin-bottom: 15px;
+	}
+
+	.home_area p{
+		font-family: 'Spoqa Han Sans', sans-serif;
+		color: #fff;
+		font-size: 1.7rem;
+		margin-left: 25px;
+		line-height: 1.5;
+		margin-top:0; 
+	}
+
+	.intro_area{
+		background-image: url("intro_bg.png");
+		height: 1073px;
+		text-align:center;
+	}
+
+	.intro_area h1{
+		font-family: 'Montserrat', sans-serif;
+		color: #fff;
+		font-weight: 700;
+		font-size: 4rem;
+		margin:0;
+		padding-bottom: 20px;
+	}
+
+	.intro_area h3{
+		font-family: 'Spoqa Han Sans', sans-serif;
+		color: #fff;
+		font-weight: 300;
+		font-size: 1.8rem;
+		margin:0;
+		padding-top: 90px;
+		padding-bottom: 0;
+	}
+
+	.intro_img{
+		display: flex;
+		background-image: url("intro.png");
+		width: 648px;
+		height: 685px;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.intro_img p{
+		font-family: 'Spoqa Han Sans', sans-serif;
+		padding-top: 7px;
+		width: 450px;
+		height: 75px;
+		line-height: 1.7;
+		margin-bottom: 0px;
+		word-break: keep-all;
+		font-size: 1.15rem;
+		color: #36431a;
+	}
+
+	.intro_line1{
+		width: 324px;
+		border-right:1px solid #bfce93;
+		height: 45px;
+		margin:0;
+		flex-wrap: wrap;
+
+	}
+
+	.intro_line2{
+		width:0px; 
+		border-right:1px solid #36431a;
+		height: 45px;
+		margin-top: -344px;
+		flex-wrap: wrap;
+
+	}
+
+	.en{
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.left{
+		justify-content: left;
+	}
+
+	.intro2{
+		text-align:center; 
+		padding-top: 90px;
+		padding-bottom: 80px;
+	}
+
+	.intro2 h1{
+		color: #56681c;
+		font-size:3.7rem;
+		line-height: 1.3;
+		margin:0;
+		font-weight: 720;
+		word-spacing: -2px;
+		font-family: 'Montserrat', sans-serif;
+}
+
+	.intro2 p{
+		color: #56681c;
+		font-size: 1.4rem;
+		line-height: 1.6;
+		margin-top: 20px;
+		margin-bottom: 0;
+		font-family: 'Spoqa Han Sans', sans-serif;
+	}
+
+	.intro3{
+		background: #80804e;
+		color: #e2ded3;
+		height: 420px;
+		padding: 0px;
+		flex-wrap: wrap;
+	}
+
+	.intro3 h1{
+		font-size: 3rem;
+		width: 271px;
+		padding-left: 40px;
+		margin:0;
+		line-height: 1.4;
+		font-family: 'Spoqa Han Sans', sans-serif;
+	}
+
+	.intro3 p{
+		font-size: 1.2rem;
+		color: #e2ded3;
+		padding-right: 40px;
+		padding-top:250px;
+		margin:0;
+		word-break: keep-all;
+		line-height: 1.5;
+		height: 170px;
+		font-family: 'Spoqa Han Sans', sans-serif;
+	}
+
+	.border{
+		border-bottom:2px solid #36431a;
+		width: 70px;
+		padding-top: 75px;
+		margin-bottom: 25px;
+		margin-left: 42px;
+	}
+
+	.intro3 img{
+		display: flex;
+		flex-wrap: wrap;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.intro4{
+		background: #fff;
+		color: #36431a;
+		height: 400px;
+		padding: 0px;
+		flex-wrap: wrap;
+	}
+
+
+	.intro4 h1{
+		font-size:3rem;
+		padding-right: 40px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.intro4 p{
+		font-size: 1.3rem;
+		padding-right: 40px;
+		padding-top: 20px;
+		padding-bottom: 30px;
+		margin:0;
+		word-break: keep-all;
+		line-height: 1.5;
+		font-family: 'Spoqa Han Sans', sans-serif;
+	}
+
+	.border2{
+		border-bottom:2px solid #36431a;
+		width: 70px;
+		padding-top: 80px;
+		margin-bottom: 37px;
+		margin-right: 40px;
+	}
+	
+	.align_right{
+		text-align: right;
+	}
+
+	.intro4 img{
+		display: flex;
+		flex-wrap: wrap;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.intro5{
+		background-image: url("intro5.png");
+		color: #36431a;
+		height: 700px;
+		flex-wrap: wrap;
+		background-repeat: no-repeat;
+		background-position: center;
+		padding-top: 500px;
+	}
+
+	.intro5 h1{
+		font-size:3rem;
+		padding-left: 40px;
+		padding-top: 10px;
+		padding-bottom: 20px;
+		margin: 0;
+		font-family: 'Spoqa Han Sans', sans-serif;
+	}
+
+	.intro5 p{
+		font-size: 1.3rem;
+		padding-left: 40px;
+		padding-right: 40px;
+		padding-top: 10px;
+		padding-bottom: 35px;
+		margin: 0;
+		word-break: keep-all;
+		line-height: 1.5;
+		font-family: 'Spoqa Han Sans', sans-serif;
+	}
+
+	.underline{
+		background: #ccca8f;
+		width: 650px;
+		height: 20px;
+		padding-top: 20px;
+		margin-bottom: 50px;
+		margin-left: 40px;
+	}
+
+	.underline h1{
+		font-size: 2.5rem;
+		font-family: 'Spoqa Han Sans', sans-serif;
+	}
+
+	.hilight{
+		position: relative;
+		top: -48px; left: -40px;
+		width: 650px;
+		color: #36431a;
+		padding-left: 0;
+		padding-top: -10px;
+		margin:0
+	}
+
+	.intro5 img{
+		display: flex;
+		flex-wrap: wrap;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.intro5_2{
+		background-image: url("intro5.png");
+		height: 950px;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.check{
+		background-image: url("check.png");
+		margin-top:700px; 
+		padding-top: 30px;
+		height: 770px;
+	}
+
+	.border3{
+		padding-top: 40.9px;
+		border-right:2px solid #36431a;
+		width: 4px;
+		height: 180px;
+		color: #36431a;
+		margin-left: 43px;
+	}
+
+	.check h1{
+		font-size: 3.5rem;
+		color: #36431a;
+		margin-left: 37px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		line-height: 1.4;
+		font-family: 'Spoqa Han Sans', sans-serif;
+
+	}
+
+	.check p{
+		font-size: 1.5rem;
+		color: #36431a;
+		line-height: 1.5;
+		word-break: keep-all;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom:10px; 
+		margin-top: 0px;
+		font-family: 'Spoqa Han Sans', sans-serif;
+	}
+
+	.check1{
+		padding-top: 30px;
+	}
+
+	.number{
+		font-family: 'Noto Serif SC', serif;
+		color: #f09379;
+		font-weight: 100px;
+		font-size: 3rem;
+		padding-left: 20px;
+		padding-right: 20px; 
+		padding-bottom: 0;
+		margin-bottom: 5px;
+	}
+
+	.check1_h1{
+		font-size: 3rem;
+		color: #36431a;
+		padding:0px 20px;
+		line-height: 1.5;
+		margin: 20px 0px;
+		word-break: keep-all;
+		font-family: 'Spoqa Han Sans', sans-serif;
+	}
+
+	.check1 p{
+		font-size: 1.25rem;
+		color: #36431a;
+		line-height: 1.5;
+		word-break: keep-all;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom:10px; 
+		margin-top: 0px;
+		font-family: 'Spoqa Han Sans', sans-serif;
+	}
+
+	.border4{
+		padding-top: 60px;
+		margin-top: 20px;
+		border-right:2px solid #36431a;
+		width: 4px;
+		height: 30px;
+		color: #36431a;
+		margin-left: 20px;
+	}
+
+	.pink{
+		color: #f09379;
+		font-size: 2.3rem;
+		line-height: 1.4;
+		margin: 0;
+		padding-left: 310px;
+		padding-bottom:40px; 
+		font-family: 'Spoqa Han Sans', sans-serif;
+	}
+
+	.check1 img{
+		padding-top: 120px;
+	}
+
+	.col-3-1{
+		width: 320px;
+		margin:0; 
+		flex-wrap: wrap;
+	}
+
+	.col-3-2{
+		width: 480px;
+		margin:0;
+		flex-wrap: wrap;
+	}
+
+	.number2{
+		font-family: 'Noto Serif SC', serif;
+		color: #f09379;
+		font-weight: 100px;
+		font-size: 44.5px;
+		margin-top: 0;
+		padding-top: 20px;
+		margin-bottom: 15px;
+		padding-right: 20px;
+		position: relative;}
+
+	.check2{
+		background-image: url(check2.png);
+		padding-top: 30px;
+		height:100%;
+		display: flex;
+		flex-wrap: wrap;
+		background-repeat: no-repeat;
+		background-position: center;}
+
+	.check2_h1{
+		font-size: 3rem;
+		color: #36431a;
+		padding:10px 20px;
+		line-height: 1.5;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		word-break: keep-all;
+		font-family: 'Spoqa Han Sans', sans-serif;
+	}
+
+	.check2 p{
+		font-size: 1.2rem;
+		color: #36431a;
+		line-height: 1.5;
+		word-break: keep-all;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom:0;
+		margin-top: 0px;
+		font-family: 'Spoqa Han Sans', sans-serif;
+	}
+
+	.check2 img{
+		padding-top: 30px;
+	}
+
+	.pink2{
+		color: #f09379;
+		font-size: 2.3rem;
+		line-height: 1.4;
+		margin: 0;
+		padding-left: 10px;
+		padding-bottom: 30px;
+		font-family: 'Spoqa Han Sans', sans-serif;
+	}
+
+	.rem2{
+		font-size: 1.3rem;
+	}
+
+	.check3{
+		background: #ebe6e2;
+		height: 700px;
+	}
+
+	.check3 p{
+	font-size: 1.25rem;
+	color: #36431a;
+	line-height: 1.5;
+	word-break: keep-all;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom:0; 
+	margin-top: 0px;
+	font-family: 'Spoqa Han Sans', sans-serif;
+	}
+
+	.check3 img{
+		width: 480px;
+		padding-top: 140px; 
+	}
+
+	.interview_area{
+		background: #fff8db;
+		height: 300px;
+	}
+
+	.interview_area h1{
+		text-align:center;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.interview{
+		background: #fff8db;
+		height: 250px;
+	}
+
+	.interview img{
+		width: 120px;
+		padding-top: 20px;
+		margin-left: 190px;
+	}
+
+	.interview h3{
+		padding-top: 20px;
+		font-family: 'Spoqa Han Sans', sans-serif;
+	}
+
+	.interview p{
+		word-break: keep-all;
+		line-height: 1.6;
+		font-family: 'Spoqa Han Sans', sans-serif;
+	}
+
+	.line{
+		background: #cae790;
+		width: 500px;
+		height: 60px;
+		margin:0;
+	}
+
+	.big{
+		font-size: 55px;
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+	}
+
+	.title_padding{
+		margin-top: 100px;
+	}
+
+	.word-spacing{
+		word-spacing: 10px; 
+	}
+
+	.beige{
+		background: #fff8db;
+	}
+
+	.inter{
+		margin-right:auto;
+		padding-bottom: 50px;
+	}
+
+	.inter2{
+		margin-left:auto;
+		padding-bottom: 50px;
+	}
+
+	.inter3{
+		margin-right:auto;
+		padding-bottom: 50px;
+	}
+
+	.inter3 img{
+		width: 400px;
+		margin-right:auto;
+		position: relative;
+		left: -130px;
+	}
+
+	.inter4{
+		margin-right:auto;
+		padding-bottom: 20px;
+	}
+
+	.size2{
+		width: 140%;
+	}
+
+	.size{
+		width: 80px;
+		padding-top: 20px;
+		margin-left:20px;
+		margin-right: 0;
+	}
+
+	.inter4 p{
+		position: relative;
+		top: -50px; left: 100px;
+	}
+	.inter5{
+		padding-bottom: 50px;
+		margin-right:auto;
+	}
+	.inter5 img{
+		width: 400px;
+		margin-left: 30px;
+	}
+	.inter6{
+		margin-right:auto;
+		padding-bottom: 50px;
+	}
+
+	.sub{
+		background-image: url("sub.png");
+		height: 1100px;
+		flex-wrap: wrap;
+		color: #36431a;
+		margin-right:0px;
+	}
+
+	.sub_p{
+		font-size: 25px;
+		padding-top: 20px;
+		padding-bottom: 10px;
+		padding-left: 30px;
+		line-height: 1.6;
+		margin-top:20px;
+		margin-bottom: 0px;
+		font-family: 'Spoqa Han Sans', sans-serif;
+	}
+
+	.sub_title{
+		font-size: 40px;
+		margin:0;
+		padding-left: 30px;
+		line-height: 1.4;
+		font-family: 'Spoqa Han Sans', sans-serif;
+	}
+
+	.sub_sec{
+		font-size: 1.75rem;
+		padding: 20px 0;
+	}
+
+	.center{
+		text-align: center;
+		width: 200px;
+		height: 700px;
+		padding-top: 5px;
+		font-family: 'Spoqa Han Sans', sans-serif;
+	}
+
+	.ticket{
+		background: rgba(255,255,255,0.95);
+		width:300px; 
+		height:700px;
+		margin-left:80px;
+	}
+	.ticket2{
+		background: rgba(255,255,255,0.95);
+		width:300px; 
+		height:700px;
+		margin-right:80px;
+	}
+
+	.ticket2_p{
+		line-height: 1.9;
+		font-family: 'Spoqa Han Sans', sans-serif;
+	}
+
+	.button{
+		background: #acad8e;
+		width: 254px;
+		height: 60px;
+		position: relative;
+		top:150px; left:-27px;
+		padding-top: 1px;
+		align-items: center;
+		color:#36431a;
+		transition-duration: 0.2s;
+	}
+
+	.button:hover{
+		background: #36431a;
+		color: #fff;
+		cursor: pointer;
+	}
+
+	.button h1{
+		height: 20px;
+		padding:0;
+		margin: 12px;
+		align-items: center;
+		font-family: 'Spoqa Han Sans', sans-serif;
+	}
+
+	.button2{
+		background: #acad8e;
+		width: 254px;
+		height: 60px;
+		position: relative;
+		top:26px; left:-27px;
+		padding-top: 1px;
+		align-items: center;
+		color:#36431a;
+		transition-duration: 0.2s;
+	}
+
+	.button2:hover{
+		background: #36431a;
+		color: #fff;
+		cursor: pointer;
+	}
+
+	.button2 h1{
+		height: 20px;
+		padding:0;
+		margin: 12px;
+		align-items: center;
+		font-family: 'Spoqa Han Sans', sans-serif;
+	}
+
+
+	footer{
+		text-align: center;
+		font-size: 20px; 
+		padding-top: 20px;
+		margin-bottom: 100px;
+	}
+
+
+
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<header>
+		<div class="nav-list">
+			<div>
+				<h1><a href="#home">Check it, Check it
+				</a></h1>
+			</div>
+			<ul>
+				<li class="nav-item"><a href="#intro" class="cool-link">intro</a></li>
+				<li class="nav-item"><a href="#check_point" class="cool-link">checkpoint</a></li>
+				<li class="nav-item"><a href="#interview" class="cool-link">interview</a></li>
+				<li class="nav-item"><a href="#subscribe" class="cool-link">subscribe</a></li>
+			</ul>
+		</div>
+	</div>
+	</header>
+	<section class="home_area">
+		<div class="home-area" id="home">
+		<div class="col-6">
+			<h1 class="thin">우연처럼 만나고 싶은<br>
+			<span class="bold">나만의 책</span></h1>
+			<p class="thin">체크 한번으로<br>만나보세요.</p>
+		</div>
+	</section>
+	<section class="intro_area">
+		<div class="col-6">
+			<div class="intro-area" id="intro">
+			<div>
+				<h3>취향 저격 책 배달 서비스</h3>
+				<h1>Check it, Check it</h1>
+				<div>
+					<div class="intro_line1">
+				</div>
+			</div>
+			<div class="intro_img">
+				<div>
+					<div class="intro_line2"></div>
+				<p class="thin">
+					<span class="en">Check it, Check it</span>은 ‘체크하고 책을 잇(<span class="en">
+					get it</span>)하자’는 의미를 담고 있습니다. 일상 속 특별한 체크로
+					<br>내게 꼭 맞는 책을 만나보세요.
+				</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="col-6">
+			<div class="intro2">
+				<h1>'채킷채킷'이라는<br>특별한 만남</h1>
+					<p>시간이 없어서, 나가기 귀찮아서,<br> 습관적으로 늘 똑같은 책만 집어들게 되어서,<br>책과의 만남이 지겨워진 당신께.</p>
+			</div>
+		</div>
+	</section>
+	<section class="intro3">
+		<div class="col-3">
+			<div>
+			<div class="border"></div>
+			</div>
+			<h1 class="thin"><span class="bold">요즘 기분</span>은<br>어떠세요?</h1>
+		</div>
+		<div class="col-3">
+			<p>코로나 때문에 혼자 있는 시간이 많아진 요즘.<br>마음 터놓을 곳도 없다 느껴질 때가 부쩍 늘은 것 같나요? 채킷채킷은 색다른 체크리스트를 통해 요즘 당신에게 꼭 맞는 책을 보내드려요.</p>
+		</div></section>
+	<section>
+			<div class="col-6">
+			<img src="intro1.png">
+			</div>
+	</section>
+	<section class="intro4 align_right">
+		<div class="col-6">
+			<div class="border2"></div>
+			<h1 class="bold">한 달에 3권,
+			<span class="thin"><br>책을 읽어 보시는 건 어떨까요?
+			</span></h1>
+			<p>채킷채킷 앱에서 간단한 체크를 하시면 다음날 아침, 문 앞으로 3권의 책이 배송됩니다. 체크는 저장해놓고 특별히 읽고 싶은 책이 있으실 때 바꾸셔도 좋아요.</p>
+		</div>
+			<div class="col-6">
+			<img src="intro2.png">
+			</div>
+	</section>
+	<section class="intro5">
+		<div class="col-6">
+			<div class="border"></div>
+			<h1 class="bold">마음에 드는 책<span class="thin">이
+			<br>정말 올까요?</span></h1>
+			<p>채킷채킷은 총 10만 명의 라이프스타일과 책 취향 데이터를 보유하고 있습니다.<br>혹시나 마음에 들지 않는다면, 문 앞에 책을 놓아주시면 채킷채킷이 수거할께요.<br>그 후 추가의 상담 전화로 당신의 취향을 심층 분석해 책을 보내드려요.</p>
+		<div class="underline">
+		<h1 class="hilight">당신의 특별한 독서 시간을 지켜드릴게요.</h1>
+		</div>
+		<div class="intro5_2">
+			<img src="intro4.png"></div>
+		</div>
+	</section>
+	<section>
+		<div class="check_point-area" id="check_point">
+		<div class="check col-6">
+			<h1 class="thin">채킷채킷에서 책을<br>
+			<span class="bold">특별하게<br>만나는 방법</span></h1>
+			<div class="border3"></div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+			<div class="check1 col-3-1">
+				<h1 class="number">01</h1>
+				<h1 class="check1_h1">채킷채킷<br>엽서</h1>
+					<p>직접 제작한 엽서를 책과 함께 보내드려요.<br>간단한 줄거리와 책의 삽화를 담았어요. 책을 추천하고 싶은 분에게 선물용으로,<br>집 안을 빛내줄 인테리어 요소로,<br>책을 읽었다는 컬렉션 역할로도</p>
+					<div class="border4"></div>
+			</div>
+			<div class="check1 col-3-2">
+				<img src="check1.png">
+			</div>
+	</section>
+	<section>
+	<div class="col-6">
+				<h1 class="pink align_right">당신이 원하는 그 어떤 것이라도 가능한 엽서예요.</h1>
+			</div>
+	</section>
+
+	<section class="check2">
+		<div class="col-3-2">
+			<div>
+				<img src="check3.png">
+			</div>
+		</div>
+		<div class="col-3-1">
+			<h1 class="number2 align_right">02</h1>
+			<h1 class="check2_h1 align_right">
+				채킷채킷<br>책 모임</h1>
+			<p class="align_right">읽는 책을 보면<br>그 사람을 알 수 있다고 하죠.<br>비슷한 책 취향을 가진 새로운 사람들과 다양한 대화를 나눠보세요.
+			당신에게 꼭 맞는 책 모임을 추천해드려요.<br>원하는 주제로 책 모임을 만들어도 좋아요.<br><span class="bold rem2">또 알아요?</span></p></div>
+			<div class="col-6">
+			<h1 class="pink2">책과의 연이 인연으로 이어질지.</h1></div>
+		</section>
+	<section class="check3">
+		<div class="col-3-1">
+				<h1 class="number">03</h1>
+				<h1 class="check1_h1">흥미로운 체크리스트</h1>
+					<p>MBTI로 책을 추천받아보셨나요? 라이프 스타일로는요?
+					<br>이색적인 테마로 당신이 새로운 책 취향을 발견할 수 있도록 돕습니다.
+					<br>새로운 나를 발견할 수 있는 체크리스트 만으로도 채킷채킷에<br>푹 빠질 거예요.</p>
+		</div>
+		<div class="col-3-2">
+			<img src="app.png">
+		</div>
+	</section>
+	<section>
+		<div>
+			<img src="app2.png">	
+		</div>
+	</section>
+	<section class="interview_area">
+			<div>
+				<h1 class="big title_padding line">Check it Check it</h1>
+				<h1 class="thin big word-spacing">Style interview</h1></div>
+		</div>
+	</section>
+	<section class="interview">
+				<div class="interview-area" id="interview">
+				<div class="col-3">
+				<img src="face.png">
+				</div>
+				<div class="col-3">
+					<h3>박주영&nbsp;&nbsp;&nbsp;<span class="light">20대 대학생</span></h3>
+					<h4 class="bold">취미&nbsp;&nbsp;&nbsp;<span class="light">카페에서 책 읽기, 힙합 들으며 혼자 춤추기,<br>90년대 프랑스 영화보기</span></h4>
+				</div>
+	</section>
+	<section class="beige">
+		<div class="inter col-4">
+			<img src="inter.png">
+		</div>
+	</section>
+	<section class="beige">
+		<div class="col-3"></div>
+		<div class="inter2 col-3">
+			<img src="inter2.png">
+		</div>
+	</section>
+
+	<section class="beige">
+		<div class="col-1"></div>
+		<div class="col-5 inter3">
+			<img src="inter3.png">
+			<h3>Juyoung:</h3>
+			<p class="text">카페에서 책 읽는 걸 좋아하는데,<br>채킷채킷에서 보내준 책이 제 취향과 딱 맞아서<br>카페에서의 시간이 더 즐거워졌어요.</p>
+		</div>
+	</section>
+	<section class="beige">
+		<div class="col-3 inter4">
+			<img class="size2" src="inter4.png">
+			<div>
+			<img class="size" src="arrow2.png">
+			<p class="text">채킷채킷 박스는 환경오염을 최소화 하도록<br>
+			친환경 재생용지로 만들어졌어요.</p>
+			</div>
+		</div>
+		<div class="col-3"></div>
+	</section>
+
+	<section class="beige">
+		<div class="col-1"></div>
+		<div class="col-5 inter5">
+			<img src="inter5.png">
+		</div>
+	</section>
+	<section class="beige">
+		<div class="col-3"></div>
+		<div class="col-3 inter6">
+			<img src="inter6.png">
+			<h3>Juyoung:</h3>
+			<p class="text">평소 도전해보지 못한 장르의 책이 왔는데, 너무 재밌네요!
+				<br>새로운 취향을 발견한 것 같아요. 채킷채킷 고마워!</p>
+		</div>
+	</section>
+	<section class="sub">
+		<div class="subscribe-area" id="subscribe">
+			<div class="col-6">
+			<p class="sub_p thin">채킷채킷을<br>친구들과 함께 구독하시고</p>
+			<h1 class="sub_title">새로운 나의 취향을<br>만나보세요</h1>
+			</div>
+		</div>
+		<div class="col-3">
+			<div class="ticket">
+				<div class="center">
+					<h1 class="sub_sec">베이직 이용권</h1>
+					<h1>월요금</h1>
+						<p>20,000원</p>
+					<h1>인원</h1>
+						<p>1</p>
+					<h1>혜택</h1>
+					<p>채킷채킷 엽서(권당 1매)</p>
+					<p>채킷채킷 책모임</p>
+					<div class="button">
+					<h1>이용권 구매하기</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-3">
+			<div class="ticket2">
+				<div class="center">
+					<h1 class="sub_sec">프리미엄 이용권</h1>
+					<h1>월요금</h1>
+						<p>40,000원</p>
+					<h1>인원</h1>
+						<p>4</p>
+						<h1>혜택</h1>
+						<p class="ticket2_p">*기존 혜택 포함<br>Check it, Check it X 민음사<br>
+						작가와의 대화<br>
+						강연 초대권<br>
+						구독 책 내 일러스트<br>
+						컬러링 엽서 제공
+						<div class="button2">
+						<h1>이용권 구매하기</h1>
+						</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<p>Check it Check it&copy; 2020. all rights reserved.</p>
+	</footer>
+
+
+</body>
+</html>
